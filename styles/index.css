@@ -1,0 +1,55 @@
+/* Impport font */
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+body {
+    font-family: 'Istok Web', sans-serif;
+    background-image: url('../media/bg_login.jpg');
+    background-repeat: repeat-x;
+}
+
+.login-content {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 34em;
+    box-shadow: 0 0 1em 0 #9e9e9e;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+header p,
+header h1 {
+    text-align: left;
+    margin-left: 25px;
+}
+
+#username,
+#password {
+    border: 1px;
+    border-radius: 8px;
+    background-color: #e9e9e9;
+    width: 320px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #118eea;
+    color: white;
+    width: 320px;
+    height: 3em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0478cb;
+    color: white;
+}
