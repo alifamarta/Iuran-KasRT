@@ -1,5 +1,5 @@
 <?php
-require './scripts/login.php'
+require 'scripts/login.php'
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@ require './scripts/login.php'
                 <h1>Silahkan login</h1>
                 <p>Masukkan username dan password</p>
             </header>
-            <form action="login.php" method="post">
+            <form action="" method="post">
                 <p>
                     <input type="text" name="username" id="username" placeholder="Username" require>
                 </p>
@@ -29,7 +29,7 @@ require './scripts/login.php'
                     <input type="password" name="password" id="password" required placeholder="Password">
                 </p>
                 <p>
-                    <input type="button" value="Login" name="submit" class="btn">
+                    <input type="submit" value="Login" name="submit" class="btn">
                 </p>
             </form>
         </div>
