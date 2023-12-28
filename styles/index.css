@@ -7,6 +7,8 @@ body {
     background-repeat: repeat-x;
 }
 
+/* Background form */
+
 .login-content {
     background-color: white;
     text-align: center;
@@ -20,6 +22,8 @@ body {
     margin-right: auto;
 }
 
+/* Header form */
+
 header img {
     margin-top: 60px;
     margin-bottom: 30px;
@@ -30,6 +34,8 @@ header h1 {
     text-align: left;
     margin-left: 25px;
 }
+
+/* Isi form */
 
 #username,
 #password {
@@ -52,4 +58,10 @@ header h1 {
 .btn:hover {
     background-color: #0478cb;
     color: white;
+}
+
+@media screen and (max-width:800px) {
+    .login-content {
+        width: 100%;
+    }
 }
