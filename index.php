@@ -17,7 +17,7 @@ require 'scripts/login.php'
     <div class="container">
         <div class="login-content">
             <header>
-                <img src="media/logo.png" width="360">
+                <img src="media/logo.png" width="320">
                 <h1>Silahkan login</h1>
                 <p>Masukkan username dan password</p>
             </header>
