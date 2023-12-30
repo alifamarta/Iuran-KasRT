@@ -1,0 +1,14 @@
+/* Gaya umum di luar media query */
+
+/* Media Query Bootstrap untuk perangkat seluler */
+@media (max-width: 767px) {
+    body {
+        padding-top: 70px;
+        /* Sesuaikan top padding untuk fixed navbar pada layar kecil */
+    }
+
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+}
