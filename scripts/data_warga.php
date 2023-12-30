@@ -25,7 +25,23 @@ $result = $conn->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Warga</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        /* Gaya umum di luar media query */
+
+        /* Media Query Bootstrap untuk perangkat seluler */
+        @media (max-width: 767px) {
+            body {
+                padding-top: 70px; /* Sesuaikan top padding untuk fixed navbar pada layar kecil */
+            }
+
+
+            .table-responsive {
+                overflow-x: auto;
+            }
+        }
+
+    </style>
 </head>
 <body>
 

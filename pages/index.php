@@ -11,15 +11,16 @@
 </head>
 
 <body>
+
     <div class="wrapper">
         <div id="sidebar" class="sidebar">
             <a href="javascript:void(0)" class="btn-close" onclick="closeNav()">&times;</a>
             <a href="#" class="active">Dashboard</a>
-            <a href="#">Data Warga</a>
-            <a href="#">Tambah Data Warga</a>
-            <a href="#">Daftar Kas Warga</a>
-            <a href="#">Tambah Iuran Warga</a>
-            <a href="#">Data Belum Membayar</a>
+            <a href="../scripts/data_warga.php">Data Warga</a>
+            <a href="../scripts/tambah_warga.php">Tambah Data Warga</a>
+            <a href="../scripts/tampil_iuran.php">Daftar Kas Warga</a>
+            <a href="../scripts/iuran.php">Tambah Iuran Warga</a>
+            <a href="../scripts/laporan_transaksi.php">Data Belum Membayar</a>
             <a href="#">Jumlah Kas</a>
         </div>
 
@@ -33,6 +34,8 @@
         </div>
         <script src="../scripts/sidebar.js"></script>
     </div>
+
+
 </body>
 
 </html>
