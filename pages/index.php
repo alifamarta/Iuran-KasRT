@@ -11,31 +11,24 @@
 </head>
 
 <body>
-
-    <div class="wrapper">
-        <div id="sidebar" class="sidebar">
-            <a href="javascript:void(0)" class="btn-close" onclick="closeNav()">&times;</a>
-            <a href="#" class="active">Dashboard</a>
-            <a href="../scripts/data_warga.php">Data Warga</a>
-            <a href="../scripts/tambah_warga.php">Tambah Data Warga</a>
-            <a href="../scripts/tampil_iuran.php">Daftar Kas Warga</a>
-            <a href="../scripts/iuran.php">Tambah Iuran Warga</a>
-            <a href="../scripts/laporan_transaksi.php">Data Belum Membayar</a>
-            <a href="#">Jumlah Kas</a>
-        </div>
-
-        <div id="main">
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #118eea;">
-                <div class="container-fluid">
-                <button class="btn btn-open" onclick="openNav()">&#9776;</button>
-                    <a href="#" class="navbar-brand">Aplikasi Iuran Kas</a>
-                </div>
-            </nav>
-        </div>
-        <script src="../scripts/sidebar.js"></script>
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">&#9776;</a>
+        <a href="#" class="active">Dashboard</a>
+        <a href="../scripts/data_warga.php">Data Warga</a>
+        <a href="../scripts/tambah_warga.php">Tambah Data Warga</a>
+        <a href="../scripts/tampil_iuran.php">Daftar Kas Warga</a>
+        <a href="../scripts/iuran.php">Tambah Iuran Warga</a>
+        <a href="../scripts/laporan_transaksi.php">Data Belum Membayar</a>
+        <a href="#">Jumlah Kas</a>
     </div>
 
-
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #118eea;">
+        <div class="nav-content">
+            <button class="sidebar-toggle" onclick="openNav()">&#9776;</button> 
+            <a href="#" class="navbar-brand">Aplikasi Iuran Kas</a>
+        </div>
+    </nav>
+    <script src="../scripts/sidebar.js"></script>
 </body>
 
 </html>

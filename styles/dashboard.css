@@ -5,6 +5,15 @@ body {
     font-family: 'Istok Web', sans-serif;
 }
 
+.wrapper {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
 .sidebar {
     height: 100%;
     width: 0;
@@ -35,29 +44,27 @@ body {
     background-color: #1a212e;
 }
 
-.sidebar .btn-close {
+.sidebar .close {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 30px;
     margin-left: 50px;
 }
 
-.btn-open {
-    font-style: 15px;
+.sidebar-toggle {
+    font-size: 25px;
     cursor: pointer;
-    border: 1px solid #f1f1f1;
+    background: none;
     color: #f1f1f1;
+    border: none;
     padding: 10px 15px;
 }
 
-.btn-open:hover {
-    border: 1px solid #f1f1f1;
-    background-color: #126fb2;
+.sidebar-toggle:hover {
     color: #f1f1f1;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
+.nav-content .navbar-brand {
+    margin-left: 20px;
 }
