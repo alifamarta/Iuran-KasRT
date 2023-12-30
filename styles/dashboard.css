@@ -1,0 +1,63 @@
+/* Impport font */
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #232d3f;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .active {
+    background-color: #1a212e;
+}
+
+.sidebar .btn-close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.btn-open {
+    font-style: 15px;
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+    color: #f1f1f1;
+    padding: 10px 15px;
+}
+
+.btn-open:hover {
+    border: 1px solid #f1f1f1;
+    background-color: #126fb2;
+    color: #f1f1f1;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}

@@ -14,8 +14,8 @@ require 'scripts/login.php'
 </head>
 
 <body>
-    <div class="container">
-        <div class="login-content">
+    <div class="wrapper">
+        <div class="content-wrapper">
             <header>
                 <img src="media/logo.png" width="320">
                 <h1>Silahkan login</h1>
