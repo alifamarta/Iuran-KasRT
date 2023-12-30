@@ -9,7 +9,7 @@ body {
 
 /* Background form */
 
-.login-content {
+.content-wrapper {
     background-color: white;
     text-align: center;
     border-radius: 10px;
