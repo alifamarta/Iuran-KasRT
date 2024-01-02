@@ -18,10 +18,10 @@
         <a href="javascript:void(0)" class="close" onclick="closeNav()">&#9776;</a>
         <a href="#" class="active">Home</a>
         <a href="data_warga.php">Data Warga</a>
-        <a href="../scripts/tambah_warga.php">Tambah Data Warga</a>
-        <a href="../scripts/tampil_iuran.php">Daftar Kas Warga</a>
-        <a href="../scripts/iuran.php">Tambah Iuran Warga</a>
-        <a href="#">Data Belum Membayar</a>
+        <a href="../pages/tambah_warga.php">Tambah Data Warga</a>
+        <a href="../pages/data_iuran_warga.php">Data Iuran Warga</a>
+        <a href="../pages/tambah_iuran.php">Tambah Iuran Warga</a>
+        <a href="#">Data Belum Membayar</a>s
         <a href="../scripts/laporan_transaksi.php">Tambbah Data Belum Membayar</a>
         <a href="#">Jumlah Kas</a>
     </div>

@@ -1,5 +1,5 @@
 <?php
- 'scripts/login.php'
+ '../scripts/login.php'
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +21,7 @@
                 <h1>Silahkan login</h1>
                 <p>Masukkan username dan password</p>
             </header>
-            <form action="" method="post">
+            <form action="scripts/login.php" method="post">
                 <p>
                     <input type="text" name="username" id="username" placeholder="Username" require>
                 </p>
