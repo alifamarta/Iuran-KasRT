@@ -1,5 +1,5 @@
 <?php
-require 'scripts/login.php'
+ 'scripts/login.php'
 ?>
 
 <!DOCTYPE html>

@@ -87,7 +87,8 @@ body {
     background-size: contain;
 }
 
-.card-kasWarga {
+.card-kasWarga,
+.card-kas {
     margin-left: 80px;
 }
 
@@ -96,13 +97,15 @@ body {
     background-size: contain;
 }
 
-.card-kas {
-    margin-left: 80px;
-}
-
 @media screen and (max-width: 800px) {
     .card {
         width: 90%;
         margin-left: 30px;
+    }
+
+    .card-user,
+    .card-kasWarga,
+    .card-kas {
+        margin-bottom: 30px;
     }
 }
