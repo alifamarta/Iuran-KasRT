@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION["username"] = $username;
 
         // Redirect ke halaman setelah login
-        header("Location: ../pages/index.php");
+        header("Location: pages/index.php");
     } else {
         // Login gagal
         echo "<script>";

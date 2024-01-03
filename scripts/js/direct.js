@@ -3,7 +3,7 @@ function toWarga() {
 }
 
 function toKasWarga() {
-    window.location.href = '../pages/daftar_kas_warga.php';
+    window.location.href = '../pages/';
 }
 
 function toKas() {

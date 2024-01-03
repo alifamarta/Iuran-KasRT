@@ -13,7 +13,7 @@
 
 <div class="container mt-5">
     <h2 class="text-center mb-4">Filter Data Warga</h2>
-    <form action="../scripts/warga_sudah_bayar.php" method="post">
+    <form action="../scripts/php/warga_sudah_bayar.php" method="post">
         <div class="mb-3">
             <label for="bulan" class="form-label">Bulan</label>
             <input type="text" class="form-control" id="bulan" name="bulan" required>
