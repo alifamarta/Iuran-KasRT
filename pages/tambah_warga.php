@@ -26,6 +26,26 @@
 </head>
 
 <body>
+    <div id="sidebar" class="sidebar">
+        <a href="#" style="color: white;"><img src="../media/mini_logo_iuran.png" width="20" style="vertical-align:middle;"> Aplikasi Iuran Kas</a>
+        <hr class="divider">
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">&#9776;</a>
+        <a href="#" class="active">Home</a>
+        <a href="data_warga.php">Data Warga</a>
+        <a href="../scripts/tambah_warga.php">Tambah Data Warga</a>
+        <a href="../scripts/tampil_iuran.php">Daftar Kas Warga</a>
+        <a href="../scripts/iuran.php">Tambah Iuran Warga</a>
+        <a href="#">Data Belum Membayar</a>
+        <a href="../scripts/laporan_transaksi.php">Tambbah Data Belum Membayar</a>
+        <a href="#">Jumlah Kas</a>
+    </div>
+    <!-- Tampilan navbar dengan tombol burger -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #118eea;">
+        <div class="nav-content">
+            <button class="sidebar-toggle" onclick="openNav()">&#9776;</button>
+            <a href="#" class="navbar-brand">Aplikasi Iuran Kas</a>
+        </div>
+    </nav>
 <div class="container mt-5">
     <h2>Tambah Data Warga</h2>
     <form method="POST" action="../scripts/proses_tambah_warga.php">
