@@ -1,5 +1,5 @@
 <?php
-// File: login_process.php
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Koneksi ke database (sesuaikan dengan informasi database Anda)
@@ -37,8 +37,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: ../pages/index.php");
     } else {
         // Login gagal
-        echo "Login gagal. Periksa kembali username dan password Anda.";
+        echo "<script>";
+        echo "alert('Login gagal  Periksa kembali username dan password Anda.');";
+        echo "window.location.href='../index.php';";
+        echo "</script>";
     }
+
 
     // Tutup koneksi dan statement
     $stmt->close();
