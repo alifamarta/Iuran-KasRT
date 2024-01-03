@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <div id="sidebar" class="sidebar">
+    <div class="sidebar">
         <a href="#" style="color: white;"><img src="../media/mini_logo_iuran.png" width="20" style="vertical-align:middle;"> Aplikasi Iuran Kas</a>
         <hr class="divider">
         <a href="javascript:void(0)" class="close" onclick="closeNav()">&#9776;</a>
