@@ -1,5 +1,5 @@
 <?php
- 'scripts/login.php'
+'../scripts/login.php'
 ?>
 
 <!DOCTYPE html>
@@ -14,26 +14,26 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="content">
-            <header>
-                <img src="media/logo.png" width="320">
-                <h1>Silahkan login</h1>
-                <p>Masukkan username dan password</p>
-            </header>
-            <form action="" method="post">
-                <p>
-                    <input type="text" name="username" id="username" placeholder="Username" require>
-                </p>
-                <p>
-                    <input type="password" name="password" id="password" required placeholder="Password">
-                </p>
-                <p>
-                    <input type="submit" value="Login" name="submit" class="btn">
-                </p>
-            </form>
-        </div>
+<div class="container">
+    <div class="content">
+        <header>
+            <img src="media/logo.png" width="320">
+            <h1>Silahkan login</h1>
+            <p>Masukkan username dan password</p>
+        </header>
+        <form action="scripts/login.php" method="post">
+            <p>
+                <input type="text" name="username" id="username" placeholder="Username" require>
+            </p>
+            <p>
+                <input type="password" name="password" id="password" required placeholder="Password">
+            </p>
+            <p>
+                <input type="submit" value="Login" name="submit" class="btn">
+            </p>
+        </form>
     </div>
+</div>
 </body>
 
 </html>

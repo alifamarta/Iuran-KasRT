@@ -1,69 +1,76 @@
-<?php
-require '../scripts/tambah_warga.php'
-?>
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulir Data Warga</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Form Tambah Warga</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        .mb-3 {
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
+
 <body>
-
 <div class="container mt-5">
-    <h2>Formulir Data Warga</h2>
-
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <div class="form-group">
-            <label for="nik">NIK:</label>
-            <input type="text" class="form-control" name="nik" required>
+    <h2>Tambah Data Warga</h2>
+    <form method="POST" action="../scripts/proses_tambah_warga.php">
+        <div class="mb-3">
+            <label for="nik" class="form-label">NIK</label>
+            <input type="text" class="form-control" id="nik" name="nik" required>
         </div>
-
-        <div class="form-group">
-            <label for="nama">Nama:</label>
-            <input type="text" class="form-control" name="nama" required>
+        <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" name="nama" required>
         </div>
-
-        <div class="form-group">
-            <label for="jenis_kelamin">Jenis Kelamin:</label>
-            <select class="form-control" name="jenis_kelamin" required>
+        <div class="mb-3">
+            <label for="jenis_kelamin" class="form-label">Jenis Kelamin</label>
+            <select class="form-select" id="jenis_kelamin" name="jenis_kelamin" required>
                 <option value="L">Laki-laki</option>
                 <option value="P">Perempuan</option>
             </select>
         </div>
-
-        <div class="form-group">
-            <label for="no_hp">Nomor HP:</label>
-            <input type="text" class="form-control" name="no_hp" required>
+        <div class="mb-3">
+            <label for="no_hp" class="form-label">No HP</label>
+            <input type="text" class="form-control" id="no_hp" name="no_hp" required>
         </div>
-
-        <div class="form-group">
-            <label for="alamat">Alamat:</label>
-            <textarea class="form-control" name="alamat" required></textarea>
+        <div class="mb-3">
+            <label for="alamat" class="form-label">Alamat</label>
+            <textarea class="form-control" id="alamat" name="alamat" required></textarea>
         </div>
-
-        <div class="form-group">
-            <label for="no_rumah">Nomor Rumah:</label>
-            <input type="text" class="form-control" name="no_rumah" required>
+        <div class="mb-3">
+            <label for="no_rumah" class="form-label">No Rumah</label>
+            <input type="text" class="form-control" id="no_rumah" name="no_rumah" required>
         </div>
-
-        <div class="form-group">
-            <label for="status">Status:</label>
-            <select class="form-control" name="status" required>
-                <option value="1">Aktif</option>
-                <option value="2">Non Aktif</option>
+        <div class="mb-3">
+            <label for="status" class="form-label">Status</label>
+            <select class="form-select" id="status" name="status" required>
+                <option value="Aktif">Aktif</option>
+                <option value="Non Aktif">Non Aktif</option>
             </select>
         </div>
-
-        <button type="submit" class="btn btn-primary">Simpan</button>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Tambah Data Warga</button>
+        </div>
     </form>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
