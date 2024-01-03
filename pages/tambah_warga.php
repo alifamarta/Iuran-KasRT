@@ -22,10 +22,87 @@
         .mb-3 {
             margin-bottom: 15px;
         }
+        /* Impport font */
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #212529;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .active {
+    background-color: #118eea;
+    color: white;
+}
+
+.sidebar .close {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.sidebar-toggle {
+    font-size: 25px;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+
+.divider {
+    margin-left: auto;
+    margin-right: auto;
+    color: #f1f1f1;
+    width: 90%;
+}
+
+.sidebar-toggle:hover {
+    color: #dedcdc;
+}
+
+.nav-content .navbar-brand {
+    margin-left: 30px;
+}
     </style>
 </head>
 
 <body>
+    <!-- Tampilan navbar dengan tombol burger -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #118eea;">
+        <div class="nav-content">
+            <button class="sidebar-toggle" onclick="openNav()">&#9776;</button>
+            <a href="#" class="navbar-brand">Aplikasi Iuran Kas</a>
+        </div>
+    </nav>
 <div class="container mt-5">
     <h2>Tambah Data Warga</h2>
     <form method="POST" action="../scripts/proses_tambah_warga.php">
