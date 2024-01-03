@@ -92,47 +92,6 @@ body {
 .nav-content .navbar-brand {
     margin-left: 30px;
 }
-
-.card {
-    width: 23%;
-    height: 200px;
-    color: white;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.bg-user {
-    background: url('../media/card_user.png');
-    background-size: contain;
-}
-
-.bg-kasWarga {
-    background: url('../media/card_daftarkas.png');
-    background-size: contain;
-}
-
-.card-kasWarga,
-.card-kas {
-    margin-left: 80px;
-}
-
-.bg-kas {
-    background: url('../media/card_kas.png');
-    background-size: contain;
-}
-
-@media screen and (max-width: 800px) {
-    .card {
-        width: 90%;
-        margin-left: 30px;
-    }
-
-    .card-user,
-    .card-kasWarga,
-    .card-kas {
-        margin-bottom: 30px;
-    }
-}
     </style>
 </head>
 
