@@ -7,6 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = "root";
     $password = "";
     $database = "db_kas_rt";
+
     $conn = new mysqli($host, $username, $password, $database);
 
     // Periksa koneksi
