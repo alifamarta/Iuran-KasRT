@@ -104,7 +104,7 @@
                         echo "<td>{$row['no_rumah']}</td>";
                         echo "<td>{$row['status']}</td>";
                         echo "<td>
-                            <a href='../scripts/ubah_warga.php?id={$row['id']}' class='btn btn-primary'>Ubah</a>
+                            <a href='../scripts/php/ubah_warga.php?id={$row['id']}' class='btn btn-primary'>Ubah</a>
                             <a href='javascript:void(0);' onclick='konfirmasiHapus({$row['id']})' class='btn btn-danger'>Hapus</a>
                         </td>";
                         echo "</tr>";
@@ -129,10 +129,11 @@
 
             if (konfirmasi) {
                 // Redirect ke skrip hapus_warga.php jika konfirmasi diterima
-                window.location.href = `../scripts/hapus_warga.php?id=${id}`;
+                window.location.href = `../scripts/php/hapus_warga.php?id=${id}`;
             }
         }
     </script>
+
     <script src="../scripts/js/sidebar.js"></script>
 </body>
 

@@ -1,6 +1,5 @@
 <?php
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Koneksi ke database (sesuaikan dengan informasi database Anda)
     $host = "localhost";
@@ -28,21 +27,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Periksa hasil query
     if ($result->num_rows > 0) {
-        // Login berhasil
-        // Simpan informasi login ke sesi atau sesuai kebutuhan aplikasi Anda
-        session_start();
-        $_SESSION["username"] = $username;
+        // Mendapatkan data user dari hasil query
+        $user_data = $result->fetch_assoc();
 
-        // Redirect ke halaman setelah login
-        header("Location: pages/index.php");
+        // Cek peran (role) user
+        if ($user_data["role"] == 1) {
+            // Jika role adalah 1 (admin), arahkan ke halaman admin
+            session_start();
+            $_SESSION["username"] = $username;
+            header("Location: pages/index.php");
+            exit(); // Pastikan untuk keluar dari skrip setelah mengarahkan pengguna
+        } else {
+            // Jika role adalah 2 (user), arahkan ke halaman user
+            session_start();
+            $_SESSION["username"] = $username;
+            header("Location: pages/user.php");
+            exit(); // Pastikan untuk keluar dari skrip setelah mengarahkan pengguna
+        }
     } else {
         // Login gagal
         echo "<script>";
-        echo "alert('Login gagal  Periksa kembali username dan password Anda.');";
-        echo "window.location.href='../index.php';";
+        echo "alert('Login gagal. Periksa kembali username dan password Anda.');";
+        echo "window.location.href='./index.php';";
         echo "</script>";
     }
-
 
     // Tutup koneksi dan statement
     $stmt->close();

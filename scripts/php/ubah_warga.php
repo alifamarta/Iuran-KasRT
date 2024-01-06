@@ -46,15 +46,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $alamat = $_POST["alamat"];
     $no_rumah = $_POST["no_rumah"];
     $status = $_POST["status"];
+    $users_id = $_POST["users_id"];
 
     // Query untuk update data warga
-    $updateQuery = "UPDATE warga SET nik=?, nama=?, jenis_kelamin=?, no_hp=?, alamat=?, no_rumah=?, status=? WHERE id=?";
+    $updateQuery = "UPDATE warga SET nik=?, nama=?, jenis_kelamin=?, no_hp=?, alamat=?, no_rumah=?, status=?, users_id=? WHERE id=?";
     $stmtUpdate = $conn->prepare($updateQuery);
-    $stmtUpdate->bind_param("ssssssii", $nik, $nama, $jenis_kelamin, $no_hp, $alamat, $no_rumah, $status, $id_warga);
+    $stmtUpdate->bind_param("ssssssiii", $nik, $nama, $jenis_kelamin, $no_hp, $alamat, $no_rumah, $status, $users_id, $id_warga);
 
     if ($stmtUpdate->execute()) {
         // Jika berhasil, arahkan ke halaman sukses atau sesuaikan dengan kebutuhan
-        header("Location: ../pages/data_warga.php");
+        header("Location: ../../pages/data_warga.php");
     } else {
         echo "Error: " . $stmtUpdate->error;
     }
@@ -119,9 +120,14 @@ $conn->close();
         <div class="mb-3">
             <label for="status" class="form-label">Status</label>
             <select class="form-select" id="status" name="status" required>
-                <option value="0" <?php if ($row['status'] == 0) echo 'selected'; ?>>Aktif</option>
-                <option value="0" <?php if ($row['status'] == 0) echo 'selected'; ?>>Non-Aktif</option>
+                <option value="Aktif" <?php if ($row['status'] == 'Aktif') echo 'selected'; ?>>Aktif</option>
+                <option value="Non-Aktif" <?php if ($row['status'] == 'Non-Aktif') echo 'selected'; ?>>Non-Aktif</option>
             </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="users_id" class="form-label">ID User</label>
+            <input type="text" class="form-control" id="users_id" name="users_id" value="<?php echo $row['users_id']; ?>" required>
         </div>
 
         <button type="submit" class="btn btn-primary">Simpan Perubahan</button>

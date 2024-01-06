@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($stmtInsert->execute()) {
         // Jika berhasil, arahkan ke halaman sukses atau sesuaikan dengan kebutuhan
-        header("Location: ../pages/data_iuran_warga.php");
+        header("Location: ../../pages/data_iuran_warga.php");
     } else {
         echo "Error: " . $stmtInsert->error;
     }
