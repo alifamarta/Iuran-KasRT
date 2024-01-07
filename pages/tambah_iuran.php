@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filter Data Warga Belum Bayar</title>
+    <title>Form Input Data Iuran</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/home.css">
     <link rel="stylesheet" href="../styles/sidebar.css">
 </head>
-
 <body>
     <!-- Tampilan menu sidebar -->
     <div id="sidebar" class="sidebar">
@@ -32,36 +30,51 @@
         <a href="#" class="navbar-brand">Aplikasi Iuran Kas RT</a>
     </div>
 </nav>
-
 <div class="container mt-5">
-    <h2 class="text-center mb-4">Filter Data Warga Belum Bayar</h2>
-
-    <form action="../scripts/php/warga_belum_bayar.php" method="post">
-        <div class="mb-3">
-            <label for="tahun" class="form-label">Tahun</label>
-            <input type="text" class="form-control" id="tahun" name="tahun" required>
+    <h2 class="mb-4">Tambah Data Iuran Warga</h2>
+    <form action="../scripts/php/proses_tambah_iuran.php" method="post">
+        <div class="form-group">
+            <label for="tanggal">Tanggal:</label>
+            <input type="date" class="form-control" name="tanggal" required>
         </div>
 
-        <div class="mb-3">
-            <label for="jenis_iuran" class="form-label">Jenis Iuran</label>
-            <select class="form-select" id="jenis_iuran" name="jenis_iuran" required>
+        <div class="form-group">
+            <label for="warga_id">Warga ID:</label>
+            <input type="number" class="form-control" name="warga_id" required>
+        </div>
+
+        <div class="form-group">
+            <label for="nominal">Nominal:</label>
+            <input type="number" class="form-control" name="nominal" step="0.01" required>
+        </div>
+
+        <div class="form-group">
+            <label for="keterangan">Keterangan:</label>
+            <select class="form-control" name="keterangan">
+                <option value="Dibayar">Dibayar</option>
+                <option value="Belum Di Bayar">Belum Di Bayar</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="jenis_iuran">Jenis Iuran:</label>
+            <select class="form-control" name="jenis_iuran" required>
                 <option value="Kas">Kas</option>
                 <option value="Sampah">Sampah</option>
                 <option value="Sumbangan">Sumbangan</option>
             </select>
         </div>
 
-        <button type="submit" class="btn btn-primary">Filter Data</button>
-    </form>
 
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 </div>
 
 <!-- Bootstrap JS and Popper.js -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="../scripts/js/sidebar.js"></script>
 <script src="../scripts/js/direct.js"></script>
-
 </body>
-
 </html>
