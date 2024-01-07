@@ -43,6 +43,7 @@
     <a href="#" onclick="showData('warga')">Data Warga</a>
     <a href="#" onclick="showData('iuran')">Data Kas Warga</a>
     <a href="#" onclick="showData('kas')">Jumlah Kas</a>
+    <a href="../index.php">Login</a>
 </div>
 
 <div id="content">
@@ -103,7 +104,7 @@
                     </thead>
                     <tbody>
                     <?php
-                    // Koneksi ke database (sesuaikan dengan informasi database Anda)
+                    // Koneksi ke database
                     $host = "localhost";
                     $username = "root";
                     $password = "";
@@ -120,7 +121,7 @@
                     $query = "SELECT * FROM warga";
                     $result = $conn->query($query);
 
-                    // Loop through the result set and display data
+
                     while ($row = $result->fetch_assoc()) {
                         echo "<tr>";
                         echo "<td>{$row['id']}</td>";
@@ -170,7 +171,7 @@
                 </thead>
                 <tbody>
                 <?php
-                // Koneksi ke database (sesuaikan dengan informasi database Anda)
+                // Koneksi ke database
                 $host = "localhost";
                 $username = "root";
                 $password = "";
@@ -227,7 +228,7 @@
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
             <style>
-                /* Tambahkan gaya CSS khusus jika diperlukan */
+
                 body {
                     background-color: #f8f9fa;
                 }

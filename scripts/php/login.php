@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             session_start();
             $_SESSION["username"] = $username;
             header("Location: pages/index.php");
-            exit(); // Pastikan untuk keluar dari skrip setelah mengarahkan pengguna
+            exit();
         } else {
             // Jika role adalah 2 (user), arahkan ke halaman user
             session_start();

@@ -35,17 +35,16 @@
 <body>
     <!-- Tampilan menu sidebar -->
     <div id="sidebar" class="sidebar">
-            <a href="index.php" style="color: white;"><img src="../media/mini_logo_iuran.png" width="20" style="vertical-align:middle;"> App Iuran Kas RT</a>
-            <hr class="divider">
-            <a href="javascript:void(0)" class="close" onclick="closeNav()">&#9776;</a>
-            <a href="index.php">Home</a>
-            <a href="data_warga.php" class="active">Data Warga</a>
-            <a href="tambah_warga.php">Tambah Data Warga</a>
-            <a href="warga_sudah_bayar.php">Data Sudah Membayar</a>
-            <a href="warga_sudah_bayar.php">Tambah Data Sudah Membayar</a>
-            <a href="#">Data Belum Membayar</a>
-            <a href="../scripts/laporan_transaksi.php">Tambah Data Belum Membayar</a>
-            <a href="jumlah_kas.php">Jumlah Kas</a>
+        <a href="index.php" style="color: white;"><img src="../media/mini_logo_iuran.png" width="20" style="vertical-align:middle;"> App Iuran Kas RT</a>
+        <hr class="divider">
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">&#9776;</a>
+        <a href="index.php">Home</a>
+        <a href="data_warga.php" class="active">Data Warga</a>
+        <a href="tambah_warga.php">Tambah Data Warga</a>
+        <a href="tambah_iuran.php">Tambah Iuran Warga</a>
+        <a href="warga_sudah_bayar.php">Data Sudah Membayar</a>
+        <a href="warga_belum_bayar.php">Data Belum Membayar</a>
+        <a href="jumlah_kas.php">Jumlah Kas</a>
     </div>
     <!-- Tampilan navbar dengan tombol burger -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #118eea;">
@@ -75,7 +74,7 @@
                 <tbody>
                     <?php
 
-                    // Koneksi ke database (sesuaikan dengan informasi database Anda)
+                    // Koneksi ke database
                     $host = "localhost";
                     $username = "root";
                     $password = "";
@@ -92,7 +91,7 @@
                     $query = "SELECT * FROM warga";
                     $result = $conn->query($query);
 
-                    // Loop through the result set and display data
+
                     while ($row = $result->fetch_assoc()) {
                         echo "<tr>";
                         echo "<td>{$row['id']}</td>"; // Ganti id menjadi users_id jika memang users_id yang dimaksud

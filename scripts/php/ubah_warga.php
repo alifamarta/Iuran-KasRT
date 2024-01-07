@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmtUpdate->bind_param("ssssssiii", $nik, $nama, $jenis_kelamin, $no_hp, $alamat, $no_rumah, $status, $users_id, $id_warga);
 
     if ($stmtUpdate->execute()) {
-        // Jika berhasil, arahkan ke halaman sukses atau sesuaikan dengan kebutuhan
+        // Jika berhasil, arahkan ke halaman data warga
         header("Location: ../../pages/data_warga.php");
     } else {
         echo "Error: " . $stmtUpdate->error;

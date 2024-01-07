@@ -29,10 +29,9 @@ if(!isset($_SESSION["username"])){
             <a href="index.php" class="active">Home</a>
             <a href="data_warga.php">Data Warga</a>
             <a href="tambah_warga.php">Tambah Data Warga</a>
+            <a href="tambah_iuran.php">Tambah Iuran Warga</a>
             <a href="warga_sudah_bayar.php">Data Sudah Membayar</a>
-            <a href="warga_sudah_bayar.php">Tambah Data Sudah Membayar</a>
-            <a href="#">Data Belum Membayar</a>
-            <a href="../scripts/laporan_transaksi.php">Tambah Data Belum Membayar</a>
+            <a href="warga_belum_bayar.php">Data Belum Membayar</a>
             <a href="jumlah_kas.php">Jumlah Kas</a>
     </div>
     <!-- Tampilan navbar dengan tombol burger -->
@@ -58,7 +57,7 @@ if(!isset($_SESSION["username"])){
             </div>
             <div class="card bg-kasWarga card-kasWarga" onclick="toKasWarga()">
                 <div class="card-body">
-                    <p class="card-text fw-bold">Data Sudah Membayar Iuran</p>
+                    <p class="card-text fw-bold">Data Belum  Membayar Iuran</p>
                 </div>
             </div>
             <div class="card bg-kas card-kas" onclick="toKas()">

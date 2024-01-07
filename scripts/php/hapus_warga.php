@@ -12,7 +12,7 @@ if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
 
-// Ambil ID Warga dari parameter GET
+// Ambil ID Warga
 if (isset($_GET['id'])) {
     $id_warga = $_GET['id'];
 
@@ -29,7 +29,7 @@ if (isset($_GET['id'])) {
     $stmtDeleteWarga->bind_param("i", $id_warga);
 
     if ($stmtDeleteWarga->execute()) {
-        // Jika berhasil, arahkan ke halaman sukses atau sesuaikan dengan kebutuhan
+        // Jika berhasil, arahkan ke halaman data warga
         header("Location: ../../pages/data_warga.php");
     } else {
         echo "Error: " . $stmtDeleteWarga->error;

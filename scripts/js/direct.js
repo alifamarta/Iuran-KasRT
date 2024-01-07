@@ -3,7 +3,7 @@ function toWarga() {
 }
 
 function toKasWarga() {
-    window.location.href = '../pages/';
+    window.location.href = 'warga_belum_bayar.php';
 }
 
 function toKas() {

@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
-        /* Tambahkan gaya CSS khusus jika diperlukan */
+
         body {
             background-color: #f8f9fa;
         }
@@ -34,12 +34,12 @@
             <th>ID Warga</th>
             <th>Nominal</th>
             <th>Keterangan</th>
-            <th>Jenis Iuran</th> <!-- Tambahkan kolom jenis_iuran -->
+            <th>Jenis Iuran</th>
         </tr>
         </thead>
         <tbody>
         <?php
-        // Koneksi ke database (sesuaikan dengan informasi database Anda)
+        // Koneksi ke database
         $host = "localhost";
         $username = "root";
         $password = "";
