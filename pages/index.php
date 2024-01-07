@@ -25,7 +25,7 @@ if(!isset($_SESSION["username"])){
     <div id="sidebar" class="sidebar">
             <a href="#" style="color: white;"><img src="../media/mini_logo_iuran.png" width="20" style="vertical-align:middle;"> App Iuran Kas RT</a>
             <hr class="divider">
-            <a href="javascript:void(0)" class="close" onclick="closeNav()">&#9776;</a>
+            <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
             <a href="index.php" class="active">Home</a>
             <a href="data_warga.php">Data Warga</a>
             <a href="tambah_warga.php">Tambah Data Warga</a>
@@ -38,7 +38,7 @@ if(!isset($_SESSION["username"])){
     <!-- Tampilan navbar dengan tombol burger -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #118eea;">
         <div class="nav-content">
-            <button class="sidebar-toggle" onclick="openNav()">&#9776;</button>
+            <button class="sidebar-toggle btn" onclick="openNav()">&#9776;</button>
             <a href="#" class="navbar-brand">Aplikasi Iuran Kas RT</a>
         </div>
     </nav>
