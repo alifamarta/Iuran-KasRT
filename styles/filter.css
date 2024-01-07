@@ -1,0 +1,22 @@
+input[type='text'], select {
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.btn-filter {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: #118eea;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    input[type='text'], select {
+        width: 40%;
+    }
+    .btn-filter {
+        margin-top: 5px;
+    }
+}

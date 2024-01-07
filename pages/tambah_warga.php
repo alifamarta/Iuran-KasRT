@@ -41,10 +41,10 @@
     <div id="sidebar" class="sidebar">
         <a href="index.php" style="color: white;"><img src="../media/mini_logo_iuran.png" width="20" style="vertical-align:middle;"> App Iuran Kas RT</a>
         <hr class="divider">
-        <a href="javascript:void(0)" class="close" onclick="closeNav()">&#9776;</a>
+        <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
         <a href="index.php">Home</a>
-        <a href="data_warga.php" class="active">Data Warga</a>
-        <a href="tambah_warga.php">Tambah Data Warga</a>
+        <a href="data_warga.php">Data Warga</a>
+        <a href="tambah_warga.php" class="active">Tambah Data Warga</a>
         <a href="tambah_iuran.php">Tambah Iuran Warga</a>
         <a href="warga_sudah_bayar.php">Data Sudah Membayar</a>
         <a href="warga_belum_bayar.php">Data Belum Membayar</a>
@@ -93,6 +93,7 @@
         <div class="container-fluid mb-3">
             <label for="status" class="form-label">Status</label>
             <select class="form-select" id="status" name="status" required placeholder="Status">
+                <option selected disabled>--Status--</option>
                 <option value="Aktif">Aktif</option>
                 <option value="Non Aktif">Non Aktif</option>
             </select>
