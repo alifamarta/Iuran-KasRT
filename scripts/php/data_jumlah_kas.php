@@ -13,7 +13,6 @@ if ($conn->connect_error) {
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Ambil data dari formulir
     $tahun = $_POST["tahun"];
 
     // Query untuk mengambil data jumlah kas perbulan berdasarkan tahun
