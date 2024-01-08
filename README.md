@@ -1,4 +1,4 @@
-# <p align="center"> Kelompok 1 </p>
+# <p align="center"> Kelompok 1 TI.22.A.3 </p>
 ## <p align="center"> 🚀Iuran-KasRT🚀 </p>
 
 <p align="center">
@@ -20,4 +20,6 @@ Deskripsi singkat proyek kelompok Anda.
 **[Alif Nur Fathlii Amarta/312210326](https://github.com/Alifamarta)** </br>
 NIM : 312210326 </br>
 **[Chaerul Hidayat](https://github.com/ChaerulHidayat17)** </br>
+NIM : 312210300 </br>
 **[Hilman Ihza Amrullah](https://github.com/HilmanAmrullah)** </br>
+NIM : 312210310 </br>
