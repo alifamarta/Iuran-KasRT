@@ -24,13 +24,18 @@ body {
 }
 
 .card-kasWarga,
-.card-kas {
+.card-kas,
+.card-iuran {
     margin-left: 80px;
 }
 
 .bg-kas {
     background: url('../media/card_kas.png');
     background-size: contain;
+}
+
+.bg-iuran {
+    background:  url('../media/card_iuran.png');
 }
 
 @media screen and (max-width: 800px) {
@@ -41,7 +46,8 @@ body {
 
     .card-user,
     .card-kasWarga,
-    .card-kas {
+    .card-kas,
+    .card-iuran {
         margin-bottom: 30px;
     }
 }
