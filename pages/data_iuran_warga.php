@@ -32,7 +32,7 @@
         </div>
     </nav>
     <div class="container mt-5 table-responsive mb-5">
-        <h2 class="mb-4">Data Iuran</h2>
+        <h2 class="mb-4 text-center">Data Iuran</h2>
         <table class="table-bordered">
             <thead>
                 <tr>

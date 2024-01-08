@@ -37,7 +37,7 @@
     </nav>
 
     <div class="container mt-5 mb-5">
-        <h2 class="text-center mb-4">Filter Data Warga Belum Bayar</h2>
+        <h2 class="text-center mb-4">Data Warga Belum Bayar</h2>
 
         <form action="../scripts/php/warga_belum_bayar.php" method="post">
             <div class="mb-3">

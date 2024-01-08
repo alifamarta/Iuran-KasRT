@@ -31,7 +31,7 @@
         </div>
     </nav>
     <div class="container mt-5 mb-5">
-        <h2 class="mb-4">Jumlah Kas Warga </h2>
+        <h2 class="mb-4 text-center">Jumlah Kas Warga </h2>
         <div class="table-responsive">
             <table class="table-bordered">
                 <thead>
