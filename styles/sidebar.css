@@ -61,3 +61,14 @@
 .nav-content .navbar-brand {
     margin-left: 30px;
 }
+
+.message {
+    margin-left: 1040px;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .message {
+        margin-left: 100px;
+    }
+}

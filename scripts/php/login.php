@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Jika role adalah 2 (user), arahkan ke halaman user
             session_start();
             $_SESSION["username"] = $username;
-            header("Location: pages/user.php");
+            header("Location: pages/index_user.php");
             exit(); // Pastikan untuk keluar dari skrip setelah mengarahkan pengguna
         }
     } else {

@@ -7,5 +7,17 @@ function toKasWarga() {
 }
 
 function toKas() {
-    window.location.href = '../pages/jumlah_kas.php';
+    window.location.href = 'jumlah_kas.php';
+}
+
+function toIuran() {
+    window.location.href = 'data_iuran_warga.php';
+}
+
+function toWargaUser() {
+    window.location.href = 'data_warga_user.php';
+}
+
+function toKasUser() {
+    window.location.href = 'jumlah_kas_user.php';
 }
