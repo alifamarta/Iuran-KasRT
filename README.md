@@ -1,13 +1,7 @@
 # <p align="center"> Kelompok 1 TI.22.A.3 </p>
-## <p align="center"> 🚀Iuran-KasRT🚀 </p>
-
 <p align="center">
   <img src="media/logo.png" alt="Logo Proyek" width="500">
 </p>
-
-## Deskripsi Proyek
-
-Deskripsi singkat proyek kelompok Anda.
 
 ## 🚀 Anggota Kelompok
 
