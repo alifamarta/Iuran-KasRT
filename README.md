@@ -18,5 +18,5 @@ Deskripsi singkat proyek kelompok Anda.
 </div>
 
 **[Alif Nur Fathlii Amarta](https://github.com/Alifamarta)** </br>
-**[Chaerul Hidayat](https://github.com/ChaerulHidayat17)**
-**[Hilman Ihza Amrullah](https://github.com/HilmanAmrullah)**
+**[Chaerul Hidayat](https://github.com/ChaerulHidayat17)** </br>
+**[Hilman Ihza Amrullah](https://github.com/HilmanAmrullah)** </br>
