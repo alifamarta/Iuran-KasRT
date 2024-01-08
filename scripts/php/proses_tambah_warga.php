@@ -31,10 +31,10 @@ $stmt->bind_param("sssssss", $nik, $nama, $jenis_kelamin, $no_hp, $alamat, $no_r
 
 // Eksekusi query
 if ($stmt->execute()) {
-    // Jika berhasil, arahkan ke halaman sukses atau sesuaikan dengan kebutuhan
-    header("Location: ../pages/data_warga.php");
+    // Jika berhasil, arahkan ke halaman data warga
+    header("Location: ../../pages/data_warga.php");
 } else {
-    // Jika terjadi kesalahan, tampilkan pesan kesalahan atau sesuaikan dengan kebutuhan
+    // Jika terjadi kesalahan, tampilkan pesan kesalahan
     echo "Error: " . $stmt->error;
 }
 
