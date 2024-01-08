@@ -3,13 +3,7 @@
   <img src="media/logo.png" alt="Logo Proyek" width="500">
 </p>
 
-## 🚀 Anggota Kelompok
-
-<div align="center">
-  <img src="gambar/anggota1.jpg" alt="Foto Anggota 1" width="100" style="border-radius: 50%">
-  <img src="gambar/anggota2.jpg" alt="Foto Anggota 2" width="100" style="border-radius: 50%">
-  <img src="gambar/anggota3.jpg" alt="Foto Anggota 3" width="100" style="border-radius: 50%">
-</div>
+## 🚀 Anggota Kelompok 🚀
 
 **[Alif Nur Fathlii Amarta/312210326](https://github.com/Alifamarta)** </br>
 NIM : 312210326 </br>
