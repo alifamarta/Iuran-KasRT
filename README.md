@@ -1,4 +1,4 @@
-# Kelompok 1
+<p align="center"> # Kelompok 1 </p>
 # Iuran-KasRT
 
 <p align="center">
