@@ -17,6 +17,6 @@ Deskripsi singkat proyek kelompok Anda.
   <img src="gambar/anggota3.jpg" alt="Foto Anggota 3" width="100" style="border-radius: 50%">
 </div>
 
-**[Alif Nur Fathlii Amarta](https://github.com/Alifamarta)**
+**[Alif Nur Fathlii Amarta](https://github.com/Alifamarta)** </br>
 **[Chaerul Hidayat](https://github.com/ChaerulHidayat17)**
 **[Hilman Ihza Amrullah](https://github.com/HilmanAmrullah)**
