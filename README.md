@@ -2,7 +2,7 @@
 ## <p align="center"> 🚀Iuran-KasRT🚀 </p>
 
 <p align="center">
-  <img src="media/logo.png" alt="Logo Proyek" width="200">
+  <img src="media/logo.png" alt="Logo Proyek" width="500">
 </p>
 
 ## Deskripsi Proyek
