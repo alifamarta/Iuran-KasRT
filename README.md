@@ -12,3 +12,6 @@
 ## Kami akan menjelaskan detail dari program yang sudah kami buat
 1. Tampilan Awal
    <img src="gambar/tampilan awal.png">
+  Source Code nya
+  <img src="code_home.png">
+  
