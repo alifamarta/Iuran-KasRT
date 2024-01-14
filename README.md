@@ -9,3 +9,6 @@
 |---------|---------|---------| 
 | 312210326 | 312210300 | 312210310 |
 
+## Kami akan menjelaskan detail dari program yang sudah kami buat
+1. Tampilan Awal
+   <img src="gambar/tampilan awal.png">
