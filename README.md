@@ -34,5 +34,5 @@
 5. Tambah Warga </br>
    Tools ini adalah untuk menambah warga yang belum di data, dan data nya akan muncul di menu Data Warga </br>
    <img src="gambar/tambah warga.png">
-   Source COde nya </br>
-   <img src="gambar/code tambar warga.png">
+   Source Code nya </br>
+   <img src="gambar/code tambah warga.png">
