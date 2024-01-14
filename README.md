@@ -11,7 +11,13 @@
 
 ## Kami akan menjelaskan detail dari program yang sudah kami buat
 1. Tampilan Awal
+   Kami membuat menu login yang simpel dan elegan
    <img src="gambar/tampilan awal.png">
   Source Code nya
   <img src="gambar/code_home.png">
-  
+
+2. Tampilan Dashboard
+   Untuk Dasboardnya kami sudah memunculkan 3 tools untuk memudahkan user untuk meng akses tools tersebut
+   <img src="gambar/homepage admin.png">
+   Source Code nya
+   <img src="gambar/code index.png">
