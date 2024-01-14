@@ -10,14 +10,14 @@
 | 312210326 | 312210300 | 312210310 |
 
 ## Kami akan menjelaskan detail dari program yang sudah kami buat
-1. Tampilan Awal
-   Kami membuat menu login yang simpel dan elegan
+1. Tampilan Awal </br>
+   Kami membuat menu login yang simpel dan elegan </br>
    <img src="gambar/tampilan awal.png">
-  Source Code nya
+  Source Code nya </br>
   <img src="gambar/code_home.png">
 
-2. Tampilan Dashboard
-   Untuk Dasboardnya kami sudah memunculkan 3 tools untuk memudahkan user untuk meng akses tools tersebut
+2. Tampilan Dashboard </br>
+   Untuk Dasboardnya kami sudah memunculkan 3 tools untuk memudahkan user untuk meng akses tools tersebut </br>
    <img src="gambar/homepage admin.png">
    Source Code nya
    <img src="gambar/code index.png">
