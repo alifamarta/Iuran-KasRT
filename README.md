@@ -36,3 +36,27 @@
    <img src="gambar/tambah warga.png">
    Source Code nya </br>
    <img src="gambar/code tambah warga.png">
+
+6. Tambah Iuran Warga </br>
+   Tools ini adalah untuk menambah informasi bahwa warga sudah membayar iuran kas atau belum </br>
+   <img src="gambar/tambah iuran.png">
+   Source Code nya </br>
+   <img src="gambar/code tambah iuran.png">
+
+7. Data Sudah Membayar </br>
+   Tampilan ini adalah dari Tambah Iuran Warga yang sudah membayar </br>
+   <img src="gambar/data sudah bayar">
+   Source Code nya </br>
+   <img src="gambar/code data sudah bayar.png">
+
+8. Data Belum Bayar </br>
+   Tampilan ini adalah dari Tambah Iuran Warga yang belum bayar </br>
+   <img src="gambar/data belum bayar.png">
+   Source Code nya </br>
+   <img src="gambar/code belum bayar.png">
+
+9. Jumlah Kas </br>
+   Ini adalah Tampilan data yang sudah bayar lalu di jumlahkan semua </br>
+   <img src="gambar/jumlah kas.png">
+   Source Code nya </br>
+   <img src="gambar/code jumlah kas.png">
