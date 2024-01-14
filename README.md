@@ -19,8 +19,14 @@
 2. Tampilan Dashboard </br>
    Untuk Dasboardnya kami sudah memunculkan 3 tools untuk memudahkan user untuk meng akses tools tersebut </br>
    <img src="gambar/homepage admin.png">
-   Source Code nya
+   Source Code nya </br>
    <img src="gambar/code index.png">
    
 3. Menu Sidebar Responsive di semua tools
    <img src="gambar/sidebar homepage.png">
+
+4. Data Warga </br>
+   Disini adalah tampilan semua data warga, untuk menampilkan semua data warga, kami menambahkan dengan tools Tambah Warga </br>
+   <img src="gambar/data warga.png">
+   Source Code nya </br>
+   <img src="gambar/code data warga.png">
