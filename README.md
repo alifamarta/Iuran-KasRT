@@ -13,5 +13,5 @@
 1. Tampilan Awal
    <img src="gambar/tampilan awal.png">
   Source Code nya
-  <img src="code_home.png">
+  <img src="gambar/code_home.png">
   
