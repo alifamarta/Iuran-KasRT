@@ -1,5 +1,6 @@
 # <p align="center"> Project UAS Iuran Kas RT </p>
 ## <p align="center"> Kelompok 1 TI.22.A.3 </p>
+## Hosting WEB (appiuranrt.online)
 <p align="center">
   <img src="media/logo.png" alt="Logo Proyek" width="500">
 </p>
@@ -45,7 +46,7 @@
 
 7. Data Sudah Membayar </br>
    Tampilan ini adalah dari Tambah Iuran Warga yang sudah membayar </br>
-   <img src="gambar/data sudah bayar">
+   <img src="gambar/data sudah bayar.png">
    Source Code nya </br>
    <img src="gambar/code data sudah bayar.png">
 
@@ -60,3 +61,8 @@
    <img src="gambar/jumlah kas.png">
    Source Code nya </br>
    <img src="gambar/code jumlah kas.png">
+   </br>
+</br>
+</br>
+
+## Terimakasih sudah melihat penjelasan kami, semoga dengan penjelasan ini sudah paham untuk launch APP IURAN KAS RT yang sudah kami buat, mohon maaf apabila penjelasan kami kurang jelas, kurang lebih nya mohon maaf, Terimakasih.
