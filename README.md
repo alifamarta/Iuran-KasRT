@@ -76,4 +76,4 @@ Ini adalah Tampilan data yang sudah bayar lalu di jumlahkan semua
 <img src="gambar/jumlah kas.png"> <br><br>
    
 
-## Terimakasih sudah melihat penjelasan kami, semoga dengan penjelasan ini sudah paham untuk launch APP IURAN KAS RT yang sudah kami buat, mohon maaf apabila penjelasan kami kurang jelas, kurang lebih nya mohon maaf, Terimakasih.
+**Terimakasih sudah melihat penjelasan kami, semoga dengan penjelasan ini sudah paham untuk launch APP IURAN KAS RT yang sudah kami buat, mohon maaf apabila penjelasan kami kurang jelas, kurang lebih nya mohon maaf, Terimakasih.**
