@@ -1,30 +1,27 @@
-# <p align="center"> Project UAS Iuran Kas RT </p>
+<h1 align="center"> Project UAS Iuran Kas RT </h1>
 <h2 align="center"> Kelompok 1 TI.22.A.3 </h2>
-<div align="center">
-  <a href="https://appiuranrt.online/"> <img src="media/logo.png" alt="Logo Proyek" width="500"> </a>
-</div>
 
 <div align="center">
-  
-## 🚀 Anggota Kelompok 🚀 
+<a href="https://appiuranrt.online/"> <img src="media/logo.png" alt="Logo Proyek" width="500"> </a>
+</div>
+
+<br><br><br><br>
+
+## Anggota Kelompok
 | NAMA | NIM |
 |---------|---------|
 | [Alif Nur Fathlii Amarta](https://github.com/Alifamarta) | 312210326 |
 | [Chaerul Hidayat](https://github.com/ChaerulHidayat17) | 312210300 |
 | [Hilman Ihza Amrullah](https://github.com/HilmanAmrullah) | 312210310
 
-</div>
+<br><br>
 
-<br>
-
-<h2 align="center">Dokumentasi Video</h2> 
-<div align="center">
+<h2> Link Dokumentasi Video</h2> 
 <a href="https://youtu.be/pu1W_2z6MBY?si=FWW6PvWKbfkO1wWS"><img src="https://github.com/alifamarta/Iuran-KasRT/assets/115516820/0284567b-a81f-46c6-986e-bf8c7dabdcb0" width="60"></a>
-</div>
 
-<br>
+<br><br>
 
-<h2 align="center">Dokumentasi Readme</h2>
+## Dokumentasi
 
 1. Tampilan Awal </br>
    Kami membuat menu login yang simpel dan elegan </br>
