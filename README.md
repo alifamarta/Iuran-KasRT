@@ -2,13 +2,16 @@
 ## <p align="center"> Kelompok 1 TI.22.A.3 </p>
 ## <p align="center"> Hosting WEB (appiuranrt.online) </p>
 <p align="center">
-  <img src="media/logo.png" alt="Logo Proyek" width="500">
+  <a href="https://appiuranrt.online/"> <img src="media/logo.png" alt="Logo Proyek" width="500"> </a>
 </p>
 
 ## 🚀 Anggota Kelompok 🚀 </br>
-| [Alif Nur Fathlii Amarta](https://github.com/Alifamarta) | [Chaerul Hidayat](https://github.com/ChaerulHidayat17) | [Hilman Ihza Amrullah](https://github.com/HilmanAmrullah) | 
-|---------|---------|---------| 
-| 312210326 | 312210300 | 312210310 |
+| NAMA | NIM |
+|---------|---------|
+| [Alif Nur Fathlii Amarta](https://github.com/Alifamarta) | 312210326 |
+| [Chaerul Hidayat](https://github.com/ChaerulHidayat17) | 312210300 |
+| [Hilman Ihza Amrullah](https://github.com/HilmanAmrullah) | 312210310
+
 
 ## Kami akan menjelaskan detail dari program yang sudah kami buat
 1. Tampilan Awal </br>
