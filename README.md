@@ -5,12 +5,16 @@
   <a href="https://appiuranrt.online/"> <img src="media/logo.png" alt="Logo Proyek" width="500"> </a>
 </p>
 
+<div align="center">
+  
 ## 🚀 Anggota Kelompok 🚀 
 | NAMA | NIM |
 |---------|---------|
 | [Alif Nur Fathlii Amarta](https://github.com/Alifamarta) | 312210326 |
 | [Chaerul Hidayat](https://github.com/ChaerulHidayat17) | 312210300 |
 | [Hilman Ihza Amrullah](https://github.com/HilmanAmrullah) | 312210310
+
+</div>
 
 <br>
 
