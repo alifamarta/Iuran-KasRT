@@ -1,9 +1,8 @@
 # <p align="center"> Project UAS Iuran Kas RT </p>
-## <p align="center"> Kelompok 1 TI.22.A.3 </p>
-## <p align="center"> Hosting WEB (appiuranrt.online) </p>
-<p align="center">
+<h2 align="center"> Kelompok 1 TI.22.A.3 </h2>
+<div align="center">
   <a href="https://appiuranrt.online/"> <img src="media/logo.png" alt="Logo Proyek" width="500"> </a>
-</p>
+</div>
 
 <div align="center">
   
