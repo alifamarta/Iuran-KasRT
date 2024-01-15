@@ -23,58 +23,56 @@
 
 ## Dokumentasi
 
-1. Tampilan Awal </br>
-   Kami membuat menu login yang simpel dan elegan </br>
-   <img src="gambar/tampilan awal.png">
-  Source Code nya </br>
-  <img src="gambar/code_home.png">
+1. Tampilan Awal
 
-2. Tampilan Dashboard </br>
-   Untuk Dasboardnya kami sudah memunculkan 3 tools untuk memudahkan user untuk meng akses tools tersebut </br>
-   <img src="gambar/homepage admin.png">
-   Source Code nya </br>
-   <img src="gambar/code index.png">
+   Kami membuat menu login yang simpel dan elegan
+   
+   <img src="gambar/tampilan awal.png"> <br><br>
+
+2. Tampilan Dashboard 
+
+   Untuk Dasboardnya kami sudah memunculkan 3 tools untuk memudahkan user untuk meng akses tools tersebut
+   
+   <img src="gambar/homepage admin.png"> <br><br>
    
 3. Menu Sidebar Responsive di semua tools
-   <img src="gambar/sidebar homepage.png">
+   
+   <img src="gambar/sidebar homepage.png"> <br><br>
 
-4. Data Warga </br>
-   Disini adalah tampilan semua data warga, untuk menampilkan semua data warga, kami menambahkan dengan tools Tambah Warga </br>
-   <img src="gambar/data warga.png">
-   Source Code nya </br>
-   <img src="gambar/code data warga.png">
+5. Data Warga
+   Disini adalah tampilan semua data warga, untuk menampilkan semua data warga, kami menambahkan dengan tools Tambah Warga
+   
+   <img src="gambar/data warga.png"> <br><br>
 
-5. Tambah Warga </br>
-   Tools ini adalah untuk menambah warga yang belum di data, dan data nya akan muncul di menu Data Warga </br>
-   <img src="gambar/tambah warga.png">
-   Source Code nya </br>
-   <img src="gambar/code tambah warga.png">
+6. Tambah Warga
 
-6. Tambah Iuran Warga </br>
-   Tools ini adalah untuk menambah informasi bahwa warga sudah membayar iuran kas atau belum </br>
-   <img src="gambar/tambah iuran.png">
-   Source Code nya </br>
-   <img src="gambar/code tambah iuran.png">
+   Tools ini adalah untuk menambah warga yang belum di data, dan data nya akan muncul di menu Data Warga
+   
+   <img src="gambar/tambah warga.png"> <br><br>
 
-7. Data Sudah Membayar </br>
-   Tampilan ini adalah dari Tambah Iuran Warga yang sudah membayar </br>
-   <img src="gambar/data sudah bayar.png">
-   Source Code nya </br>
-   <img src="gambar/code data sudah bayar.png">
+7. Tambah Iuran Warga
 
-8. Data Belum Bayar </br>
-   Tampilan ini adalah dari Tambah Iuran Warga yang belum bayar </br>
-   <img src="gambar/data belum bayar.png">
-   Source Code nya </br>
-   <img src="gambar/code belum bayar.png">
+   Tools ini adalah untuk menambah informasi bahwa warga sudah membayar iuran kas atau belum
+   
+   <img src="gambar/tambah iuran.png"> <br><br>
 
-9. Jumlah Kas </br>
-   Ini adalah Tampilan data yang sudah bayar lalu di jumlahkan semua </br>
-   <img src="gambar/jumlah kas.png">
-   Source Code nya </br>
-   <img src="gambar/code jumlah kas.png">
-   </br>
-</br>
-</br>
+8. Data Sudah Membayar
+
+   Tampilan ini adalah dari Tambah Iuran Warga yang sudah membayar
+
+   <img src="gambar/data sudah bayar.png"> <br><br>
+
+9. Data Belum Bayar
+    
+    Tampilan ini adalah dari Tambah Iuran Warga yang belum bayar
+   
+   <img src="gambar/data belum bayar.png"> <br><br>
+
+10. Jumlah Kas
+    
+   Ini adalah Tampilan data yang sudah bayar lalu di jumlahkan semua
+   
+   <img src="gambar/jumlah kas.png"> <br><br>
+   
 
 ## Terimakasih sudah melihat penjelasan kami, semoga dengan penjelasan ini sudah paham untuk launch APP IURAN KAS RT yang sudah kami buat, mohon maaf apabila penjelasan kami kurang jelas, kurang lebih nya mohon maaf, Terimakasih.
